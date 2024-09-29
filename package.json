@@ -1,0 +1,14 @@
+{
+  "name": "web-server-lite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npmize dev",
+    "build": "npmize build"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
