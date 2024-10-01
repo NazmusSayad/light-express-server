@@ -8,7 +8,7 @@ export const app = NoArg.create('web-server-lite', {
   },
 
   flags: {
-    port: NoArg.number(),
+    port: NoArg.number().default(3000),
     host: NoArg.string(),
   },
 })

@@ -1,16 +1,19 @@
 {
   "name": "light-express-server",
-  "version": "0.0.0",
+  "version": "1.0.3",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
+    "tsc": "tsc --noEmit --watch",
     "lab": "run ./src/__lab__/index.ts"
   },
   "dependencies": {
     "express": "^4.21.0",
-    "noarg": "^3.1.6"
+    "noarg": "^3.1.6",
+    "socket.io": "^4.8.0"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.7.4",
     "typescript": "^5.6.2"
   },

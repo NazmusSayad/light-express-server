@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
+    "module": "CommonJS",
     "target": "ES6",
     "moduleResolution": "Node",
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "declaration": true,
     "strict": true
   },
   "include": ["./src"]
